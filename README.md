@@ -1,27 +1,25 @@
-#  TITLE
+# 🖥 TITLE
 DESCRIPTION ...
-
+<!--
 ## 🧰 Example:
 ```swift
 ```
+-->
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
-- Swift 4+
-- Xcode 10+
+- Webstorm (#WS-222.3345.108)
 
 ### INSTALATION
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/repository-template.git
+git clone https://github.com/PaoloProdossimoLopes/fei-cc1620-game-project-web.git
 ```
 3. Open the file with extension .xcodeproj inside the folder project.
    
 ### RUN
-So that you can run the project follow this steps:
-1. Choose a simulator 
-2. Then click on the **COMMAND + R** keys or press the ▶︎ (icon at the top of the IDE).
+open project folder with webstorm IDE
 
 
 ## 📃 License:
