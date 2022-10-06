@@ -1,5 +1,5 @@
-# 🖥 TITLE
-DESCRIPTION ...
+# 🖥 WEB GAME
+In this repo, we ([Felipe](https://google.com) and I) create the web page to promote and play a simple game development using HTML, CSS and JS
 <!--
 ## 🧰 Example:
 ```swift
