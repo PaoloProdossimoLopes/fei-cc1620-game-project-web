@@ -1,10 +1,8 @@
 # 🖥 WEB GAME
 In this repo, we ([Felipe](https://google.com) and I) create the web page to promote and play a simple game development using HTML, CSS and JS
-<!--
-## 🧰 Example:
-```swift
-```
--->
+
+## 🧰 Prototype:
+[FIGMA](https://www.figma.com/file/UAQGnVeEMJSdMcKOpxoo56/CC1620-PROJETO-SITE-JOGO?node-id=0%3A1)
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
