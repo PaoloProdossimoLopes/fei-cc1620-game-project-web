@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100vw;
+    margin: auto;
+}
+
+#cabecalho {
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+#cabecalho a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+.texto-focado {
+    color: #D00142;
+}
+
+.filperama-background {
+    background-image: ;
+}
+
