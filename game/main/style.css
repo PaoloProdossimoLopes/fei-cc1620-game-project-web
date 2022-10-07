@@ -70,8 +70,45 @@ body {
     justify-content: center;
 }
 
+#vantagens {
+    height: 300px;
+    background-color: #020A1D;
+    display: flex;
+    align-items: center;
+}
 
+#vantagens-container {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+#vantagens span {
+    color: #D00142;
+
+}
+
+#vantagens p {
+    margin: 10px 0;
+}
+
+.vantagem-image {
+    height: 60px;
+    width: 80px;
+}
+
+#footer {
+    height: 200px;
+    background-color: black;
+}
+
+.vatagem {
+    margin: 0 30px;
+    padding: 0 30px;
+}
 
 
 
