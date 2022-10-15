@@ -8,67 +8,77 @@
 <body>
 <!--  CABEÇALHO  -->
 <div id="cabecalho">
-    <a href="index.html">main</a>
-    <a href="../game/index.html"><span class="texto-focado">game</span></a>
+    <a href="../main/index.html">main</a>
+    <a href="index.html"><span class="texto-focado">game</span></a>
     <a href="../about/index.html">about</a>
 </div>
 
-<div class="memory-game">
-    <div class="memory-card" data-framework="feliz">
-        <p class="front-face">😀</p>
-        <p class="back-face">🔒</p>
-    </div>
-    <div class="memory-card" data-framework="feliz">
-        <p class="front-face">😀</p>
-        <p class="back-face">🔒</p>
+<div class="conteudo-jogo-da-memoria">
+    <div class="jogo-da-memoria">
+        <div class="carta" data-framework="feliz">
+            <p class="frete-da-carta">😀</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+        <div class="carta" data-framework="feliz">
+            <p class="frete-da-carta">😀</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+
+        <div class="carta" data-framework="triste">
+            <p class="frete-da-carta">🥹</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+        <div class="carta" data-framework="triste">
+            <p class="frete-da-carta">🥹</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+
+        <div class="carta" data-framework="cdf">
+            <p class="frete-da-carta">🤓</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+        <div class="carta" data-framework="cdf">
+            <p class="frete-da-carta">🤓</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+
+        <div class="carta" data-framework="comemorando">
+            <p class="frete-da-carta">🥳</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+        <div class="carta" data-framework="comemorando">
+            <p class="frete-da-carta">🥳</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+
+        <div class="carta" data-framework="top">
+            <p class="frete-da-carta">😎</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+        <div class="carta" data-framework="top">
+            <p class="frete-da-carta">😎</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+
+        <div class="carta" data-framework="frio">
+            <p class="frete-da-carta">🥶</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+        <div class="carta" data-framework="frio">
+            <p class="frete-da-carta">🥶</p>
+            <p class="tras-da-carta">🔒</p>
+        </div>
+
+        <script src="script.js"></script>
     </div>
 
-    <div class="memory-card" data-framework="triste">
-        <p class="front-face">🥹</p>
-        <p class="back-face">🔒</p>
+    <div class="botao-limpar-content">
+        <button onclick="limpando()">Recomeçar</button>
     </div>
-    <div class="memory-card" data-framework="triste">
-        <p class="front-face">🥹</p>
-        <p class="back-face">🔒</p>
-    </div>
-
-    <div class="memory-card" data-framework="cdf">
-        <p class="front-face">🤓</p>
-        <p class="back-face">🔒</p>
-    </div>
-    <div class="memory-card" data-framework="cdf">
-        <p class="front-face">🤓</p>
-        <p class="back-face">🔒</p>
-    </div>
-
-    <div class="memory-card" data-framework="comemorando">
-        <p class="front-face">🥳</p>
-        <p class="back-face">🔒</p>
-    </div>
-    <div class="memory-card" data-framework="comemorando">
-        <p class="front-face">🥳</p>
-        <p class="back-face">🔒</p>
-    </div>
-
-    <div class="memory-card" data-framework="backbone">
-        <p class="front-face">😀</p>
-        <p class="back-face">🔒</p>
-    </div>
-    <div class="memory-card" data-framework="backbone">
-        <p class="front-face">😀</p>
-        <p class="back-face">🔒</p>
-    </div>
-
-    <div class="memory-card" data-framework="react">
-        <p class="front-face">😀</p>
-        <p class="back-face">🔒</p>
-    </div>
-    <div class="memory-card" data-framework="react">
-        <p class="front-face">😀</p>
-        <p class="back-face">🔒</p>
-    </div>
-
-    <script src="script.js"></script>
 </div>
+
+<div id="footer">
+</div>
+
 </body>
 </html>
